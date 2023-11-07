@@ -1,7 +1,7 @@
 /*
 Theme Name: Students
 Theme URI: http://students.telkomuniversity.ac.id
-Author: Mfc
+Author: Faizal Chan.
 Author URI: https://mf-chan.com
 Description: Tema untuk Students Telkom University News Portal, didukung dengan Bootstrap dan Font Awesome.
 Version: 1.34
@@ -18,213 +18,220 @@ Text Domain: students
 /* ----- Comment Section ----- */
 
 .commentlist li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .comments .comment {
-	padding: 5px 7px;
-	background-color: #fafafa;
-	border-bottom: solid #eee 1px;
+    padding: 5px 7px;
+    background-color: #fafafa;
+    border-bottom: solid #eee 1px;
 }
 
 .comments .parent {
-	padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .comments .children .comment {
-	margin-bottom: 0;
-	border-top: solid #eee 1px;
-	border-bottom: 0;
-	border-left: solid #aaa 3px;
+    margin-bottom: 0;
+    border-top: solid #eee 1px;
+    border-bottom: 0;
+    border-left: solid #aaa 3px;
 }
 
 .comments ul {
-	margin-bottom: 0;
-	padding-left: 25px;
+    margin-bottom: 0;
+    padding-left: 25px;
 }
 
 .comments .comment-meta {
-	padding-left: 54px;
-	font-size: 80%;
+    padding-left: 54px;
+    font-size: 80%;
 }
 
 .comments .byuser {
-	background: url(res/image/badge.png) no-repeat right top, #dfdddd;
+    background: url(res/image/badge.png) no-repeat right top, #dfdddd;
 }
 
 .reply {
-	padding-top: 7px;
-	margin-right: -7px;
-	margin-bottom: 3px;
-	text-align: right;
+    padding-top: 7px;
+    margin-right: -7px;
+    margin-bottom: 3px;
+    text-align: right;
 }
 
 .comments .parent .reply {
-	margin-right: 0;
-	margin-bottom: 8px;
+    margin-right: 0;
+    margin-bottom: 8px;
 }
 
 .comments .children .reply {
-	margin-right: -7px;
-	margin-bottom: 3px;
+    margin-right: -7px;
+    margin-bottom: 3px;
 }
 
 .comments .reply a,
 .comments input[type=submit] {
-	background: #bbb;
-	padding: 10px;
-	color: #fafafa;
-	border: none;
+    background: #bbb;
+    padding: 10px;
+    color: #fafafa;
+    border: none;
 }
 
 .comments label {
-	width: 80px;
+    width: 80px;
 }
 
 .comments input[type=text] {
-	width: 45%;
+    width: 45%;
 }
 
 .comments textarea {
-	width: 100%;
-	height: 100px;
-	min-width: 100%;
-	max-width: 100%;
-	min-height: 100px;
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
 }
 
 p.form-submit {
-	text-align: right;
+    text-align: right;
 }
 
 .comments input[type=submit] {
-	display: inline-block;
-	margin-top: -10px;
+    display: inline-block;
+    margin-top: -10px;
 }
 
 /* ----- WordPress Core ----- */
 
 .sticky {}
+
 .bypostauthor {}
 
 .gallery img {
-	border: none !important;
+    border: none !important;
 }
 
 .gallery-caption {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .alignnone {
-	margin: 20px;
+    margin: 20px;
 }
 
 .aligncenter,
 div.aligncenter {
-	display: block;
-	margin: 20px auto;
+    display: block;
+    margin: 20px auto;
 }
 
 .alignright {
-	float:right;
-	margin: 20px;
+    float: right;
+    margin: 20px;
 }
 
 .alignleft {
-	float: left;
-	margin: 20px;
+    float: left;
+    margin: 20px;
 }
 
-img.alignright, a img.alignright {
-	float: right;
-	margin: 20px;
-	max-width: 100%;
-	height: auto;
+img.alignright,
+a img.alignright {
+    float: right;
+    margin: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
-img.alignnone, a img.alignnone {
-	max-width: 100%;
-	height: auto;
+img.alignnone,
+a img.alignnone {
+    max-width: 100%;
+    height: auto;
 }
 
-img.alignleft, a img.alignleft {
-	float: left;
-	margin: 20px;
-	max-width: 100%;
-	height: auto;
+img.alignleft,
+a img.alignleft {
+    float: left;
+    margin: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
-img.aligncenter, a img.aligncenter {
-	display: block;
-	margin: 20px auto;
-	max-width: 100%;
-	height: auto;
+img.aligncenter,
+a img.aligncenter {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .wp-caption {
-	background: #fff;
-	border: 1px solid #f0f0f0;
-	max-width: 96%;
-	padding: 5px 3px 10px;
-	text-align: center;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
 }
 
 .wp-caption.alignnone {
-	margin: 20px auto;
+    margin: 20px auto;
 }
 
 .wp-caption.alignleft {
-	margin: 20px;
+    margin: 20px;
 }
 
 .wp-caption.alignright {
-	margin: 20px;
+    margin: 20px;
 }
 
 .wp-caption img {
-	border: 0 none;
-	height: auto;
-	margin: 0;
-	max-width: 98.5%;
-	padding: 0;
-	width: auto;
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
 }
 
 .wp-caption p.wp-caption-text {
-	font-size: 85%;
-	line-height: 17px;
-	margin: 0;
-	padding: 7px 5px 0 5px;
+    font-size: 85%;
+    line-height: 17px;
+    margin: 0;
+    padding: 7px 5px 0 5px;
 }
 
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
 }
 
-p, span, iframe {
-	max-width: 100% !important;
+p,
+span,
+iframe {
+    max-width: 100% !important;
 }

@@ -1,90 +1,90 @@
 body.login {
-	background: url('../image/background.jpg') no-repeat center center;
+    background: url('../image/background.jpg') no-repeat center center;
 }
 
 .login h1 a {
-	background-image: url('../image/login-banner.png');
-	background-size: contain;
-	width: 300px;
-	height: 42px;
-	margin-bottom: 10px;
+    background-image: url('../image/login-banner.png');
+    background-size: contain;
+    width: 300px;
+    height: 42px;
+    margin-bottom: 10px;
 }
 
 .interim-login.login h1 a {
-	background-image: url('../image/login-banner.png');
-	background-size: contain;
-	width: 300px;
-	height: 42px;
-	margin-top: 10px;
-	margin-bottom: 15px;
+    background-image: url('../image/login-banner.png');
+    background-size: contain;
+    width: 300px;
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .login #nav {
-	margin: 10px 0 0;
+    margin: 10px 0 0;
 }
 
 #wp-submit {
-	width: 100%;
+    width: 100%;
 }
 
 #login form p.forgetmenot {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .login label {
-	font-size: 12px;
-	color: #555;
+    font-size: 12px;
+    color: #555;
 }
 
-.login input[type="text"]{
-	background-color: #fff;
-	border-color:#ddd;
-	-webkit-border-radius: 4px;
+.login input[type="text"] {
+    background-color: #fff;
+    border-color: #ddd;
+    -webkit-border-radius: 4px;
 }
 
-.login input[type="password"]{
-	background-color: #fff;
-	border-color:#ddd;
-	-webkit-border-radius: 4px;
+.login input[type="password"] {
+    background-color: #fff;
+    border-color: #ddd;
+    -webkit-border-radius: 4px;
 }
 
 .login .button-primary {
-	width: 120px;
-	float:right;
-	background-color:#17a8e3;
-	color: #fff;
-	-webkit-border-radius: 4px;
-	border: 1px solid #0d9ed9;
+    width: 120px;
+    float: right;
+    background-color: #17a8e3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #0d9ed9;
 }
 
 .login .button-primary:hover {
-	background-color:#17a8e3;
-	color: #fff;
-	-webkit-border-radius: 4px;
-	border: 1px solid #0d9ed9;
+    background-color: #17a8e3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #0d9ed9;
 }
 
 .login .button-primary:active {
-	background-color:#17a8e3;
-	color: #fff;
-	-webkit-border-radius: 4px;
-	border: 1px solid #0d9ed9;
+    background-color: #17a8e3;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #0d9ed9;
 }
 
 p#backtoblog {
-	display: none;
+    display: none;
 }
 
 p#nav {
-	text-align: center;
+    text-align: center;
 }
 
 .login #nav a {
-	color: #ccc;
-	text-shadow: 1px 1px #333;
-	font-size: 110%;
+    color: #ccc;
+    text-shadow: 1px 1px #333;
+    font-size: 110%;
 }
 
 .login form {
-	padding: 20px 20px 30px;
+    padding: 20px 20px 30px;
 }
